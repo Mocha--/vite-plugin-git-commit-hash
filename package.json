@@ -1,0 +1,13 @@
+{
+  "name": "vite-plugin-git-commit-hash",
+  "version": "1.0.0",
+  "description": "a vite plugin that gets the latest git commit hash",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vite", "git", "commit-hash"],
+  "author": "XIBO WANG <xibowangmelb@gmail.com>",
+  "license": "ISC"
+}
