@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    /* Base Options */
+    "target": "ESNext",
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,
+
+    /* Module */
+    "moduleResolution": "node",
+    "module": "esnext",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+
+    /* Strictness */
+    "strict": true,
+    "noImplicitAny": true,
+
+    /* Built-in Libs */
+    "lib": ["esnext"],
+
+    /* Global Types */
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
+  },
+  "include": ["./src"]
+}
