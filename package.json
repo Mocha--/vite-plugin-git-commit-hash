@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-git-commit-hash",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a vite plugin that gets the latest git commit hash",
   "type": "module",
   "types": "./dist/index.d.ts",

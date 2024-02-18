@@ -15,7 +15,7 @@ export function gitCommitHashPlugin(params: GitCommitHashPluginParams | null = n
     config() {
       return {
         define: {
-          GIT_COMMIT_HASH: JSON.stringify(`hehehe-${getGitCommitHash(isLongHash)}`)
+          GIT_COMMIT_HASH: JSON.stringify(getGitCommitHash(isLongHash))
         }
       };
     }
