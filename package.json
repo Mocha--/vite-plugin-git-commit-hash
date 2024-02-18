@@ -23,7 +23,7 @@
   ],
   "exports": {
     "import": "./dist/index.js",
-    "require": "./dist/inex.cjs"
+    "require": "./dist/index.cjs"
   },
   "author": "XIBO WANG <xibowangmelb@gmail.com>",
   "license": "ISC",
