@@ -11,8 +11,10 @@
   },
   "homepage": "https://github.com/Mocha--/vite-plugin-git-commit-hash",
   "scripts": {
+    "prebuild": "pnpm install",
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "prepublishOnly": "pnpm build"
   },
   "keywords": [
     "vite",
