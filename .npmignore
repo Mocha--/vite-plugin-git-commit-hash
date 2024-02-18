@@ -1,1 +1,5 @@
 src
+.editorconfig
+.nvmrc
+tsconfig.json
+tsup.config.ts
