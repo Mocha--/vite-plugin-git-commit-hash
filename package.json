@@ -5,7 +5,11 @@
   "type": "module",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
-  "homepage": "https://github.com/Mocha--/vite-plugin-git-commit-hash?tab=readme-ov-file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mocha--/vite-plugin-git-commit-hash"
+  },
+  "homepage": "https://github.com/Mocha--/vite-plugin-git-commit-hash",
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch"
