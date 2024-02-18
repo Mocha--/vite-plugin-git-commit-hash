@@ -9,6 +9,6 @@ export default defineConfig({
   target: 'esnext',
   treeshake: true,
   minify: true,
-  format: 'esm',
+  format: ['esm', 'cjs'],
   dts: true
 })

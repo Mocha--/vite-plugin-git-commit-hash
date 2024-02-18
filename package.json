@@ -21,6 +21,10 @@
     "git",
     "commit-hash"
   ],
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/inex.cjs"
+  },
   "author": "XIBO WANG <xibowangmelb@gmail.com>",
   "license": "ISC",
   "devDependencies": {
