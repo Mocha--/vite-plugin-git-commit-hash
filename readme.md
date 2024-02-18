@@ -11,7 +11,7 @@ pnpm add -D vite-plugin-git-commit-hash
 
 ## Usage
 
-1. vite config
+1. ### vite config
 ```typescript
 import { defineConfig } from "vite";
 import { gitCommitHashPlugin } from "vite-plugin-git-commit-hash";
@@ -28,7 +28,7 @@ export default defineConfig((config) => {
 });
 ```
 
-2. in your typescript/javascript
+2. ### in your typescript/javascript
 ```javascript
 /**
  * use the variable GIT_COMMIT_HASH
@@ -38,7 +38,7 @@ export default defineConfig((config) => {
 console.info(GIT_COMMIT_HASH);
 ```
 
-3. typescript declaration (optional)
+3. ### typescript declaration (optional)
 ```typescript
 /**
  * in any of your typescript declaration files, for example global.d.ts
